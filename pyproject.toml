@@ -1,0 +1,18 @@
+[project]
+name = "machine-learning-orhan"
+version = "0.1.0"
+description = "Course scaffolding with uv: linear regression example and deps"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.26",
+  "scikit-learn>=1.3",
+  "matplotlib>=3.8",
+  "ipykernel>=6.29",
+]
+
+# Using default uv behavior; add dependency groups if needed later.
+
+[project.scripts]
+hello = "main:main"

@@ -1,0 +1,22 @@
+# Python / uv
+__pycache__/
+.venv/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# uv lockfile is generated
+uv.lock
+
+# Outputs and data artifacts
+outputs/
+data/*.tmp
+*.log
