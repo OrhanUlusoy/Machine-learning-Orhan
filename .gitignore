@@ -1,6 +1,7 @@
 # Python / uv
 __pycache__/
 .venv/
+.venv-1/
 *.pyc
 *.pyo
 *.pyd
