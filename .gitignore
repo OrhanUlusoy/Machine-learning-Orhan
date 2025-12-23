@@ -9,7 +9,9 @@ __pycache__/
 *.so
 
 # VS Code
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/project.bashrc
 
 # Jupyter
 .ipynb_checkpoints/
